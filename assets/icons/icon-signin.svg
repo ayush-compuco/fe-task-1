@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,4 C7.584,4 4,7.584 4,12 C4,16.416 7.584,20 12,20 C16.416,20 20,16.416 20,12 C20,7.584 16.416,4 12,4 L12,4 Z M12,6.4 C13.328,6.4 14.4,7.472 14.4,8.8 C14.4,10.128 13.328,11.2 12,11.2 C10.672,11.2 9.6,10.128 9.6,8.8 C9.6,7.472 10.672,6.4 12,6.4 L12,6.4 Z M12,17.76 C10,17.76 8.232,16.736 7.2,15.184 C7.224,13.592 10.4,12.72 12,12.72 C13.592,12.72 16.776,13.592 16.8,15.184 C15.768,16.736 14,17.76 12,17.76 L12,17.76 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-Buttons/3.-Small-Button/2.-Button-Left-Icon" transform="translate(-19.000000, -12.000000)">
+            <g id="3.-Icons/ic_account_circle" transform="translate(15.000000, 8.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Icon"></g>
+                <g id="Components/Colors/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                    <g transform="translate(1.600000, 1.600000)" id="Base">
+                        <rect x="0" y="0" width="21" height="21"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
