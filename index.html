@@ -14,21 +14,32 @@
 
 <body>
     <div class="top-header">
-        <a href="">PRI</a>
-        <a href="">Collaboration Platform</a>
-        <a href="">Data Portal</a>
-        <a href="">Reporting Tool</a>
-        <a href="">PRI Academy</a>
+        <div class="top-header-wrapper">
+            <a href="">PRI</a>
+            <a href="">Collaboration Platform</a>
+            <a href="">Data Portal</a>
+            <a href="">Reporting Tool</a>
+            <a href="">PRI Academy</a>
+        </div>
     </div>
     <div class="navbar">
-        <a href="https://www.unpri.org/"><img alt="PRI Logo" src="../../assets/images/logo.svg"
-            width="150" height="70"></a>
-        <input class="search-bar" type="text" placeholder="Search">
-        <form action="">
-            <input class="navbar-button navbar-signup" id="register-button" type="submit" name="register" value="Register">
-            <input class="navbar-button navbar-login" id="login-button" type="submit" name="login" value="Sign in">
-        </form>
+        <div class="navbar-wrapper">
+            <div class="nav-logo">
+                <a href="https://www.unpri.org/"><img alt="PRI Logo" src="../../assets/images/logo.svg"
+                width="150" height="70"></a>
+            </div>
+            <div class="nav-search">
+                <input class="search-bar" type="text" placeholder="Search">
+            </div>
+            <div class="nav-buttons">
+                <form action="">
+                    <input class="navbar-button navbar-signup" id="register-button" type="submit" name="register" value="Register">
+                    <input class="navbar-button navbar-login" id="login-button" type="submit" name="login" value="Sign in">
+                </form>
+            </div>
+        </div>
     </div>
+
     <main class="main-container">
         <div class="row-container">
             <div class="row-title">
@@ -168,9 +179,11 @@
         </div>
     </main>
     <footer class="footer">
-        <p>The PRI is an investor initiative in partnership with UNEP Finance Initiative and UN Global Compact.</p>
-        <img src="../../assets/images/footer-company.png" alt="Footer company image">
-        <p>PRI Association, 25 Camperdown Street, London, E1 8DZ, UK | Company no: 7297947 | +44 (0)20 3714 3141 | info@unpri.org | ISO 14001:2004 Management Standard</p>
+        <div class="footer-wrapper">
+            <p>The PRI is an investor initiative in partnership with UNEP Finance Initiative and UN Global Compact.</p>
+            <img src="../../assets/images/footer-company.png" alt="Footer company image">
+            <p class="p2">PRI Association, 25 Camperdown Street, London, E1 8DZ, UK | Company no: 7297947 | +44 (0)20 3714 3141 | info@unpri.org | ISO 14001:2004 Management Standard</p>
+        </div>
     </footer>
 </body>
 

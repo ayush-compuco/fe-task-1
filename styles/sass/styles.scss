@@ -13,12 +13,17 @@ main {
 }
 
 .top-header {
-    height: 30px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #008CC8;
+}
+.top-header-wrapper {
+    height: 30px;
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: right;
-    background-color: #008CC8;
     color: white;
     
     a {
@@ -43,17 +48,32 @@ main {
 }
 
 .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px grey;
+}
+.navbar-wrapper {
     height: 80px;
-    width: 100vw;
+    width: 97%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 10px grey;
 }
-
+.nav-logo {
+    width: 20%;
+}
+.nav-search {
+    width: 60%;
+}
+.nav-buttons {
+    width: 30%;
+    display: flex;
+    justify-content: right;
+}
 .search-bar {
     height: 42px;
-    width: 602px;
+    width: 500px;
     border: 2px solid #F0F0F0;
     color: #555;
     padding: 0;
@@ -120,12 +140,28 @@ input.search-bar {
 }
 
 .footer{
-    height: 273px;
-    width: 100vw;
+    width: 100%;
+    padding: 35px 0 25px 0;
     background-color: #0050A0;
+    display: flex;
+    justify-content: center;
+}
+.footer-wrapper {
+    width: 83%;
+    height: 260px;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+.footer p {
+    font-size: 13px;
+    font-weight: 500;
+}
+.footer .footer-wrapper .p2 {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
 }
