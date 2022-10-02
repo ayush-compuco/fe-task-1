@@ -129,18 +129,68 @@ input.search-bar {
 .row-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    border-bottom: 1px solid #E3E7EB;
 
     .row-title {
-        width: 80vw;
-
         h1 {
-            padding: 25px 30px;
+            padding: 0;
             font-size: 24px;
             font-weight: 700;
             line-height: 1.25;
         }
+    }
+
+    .search-wrapper {
+        padding: 25px 75px;
+    }
+}
+
+.horizontal-line {
+    border-bottom: 2px solid #E3E7EB;
+}
+
+.form-row {
+    display: flex;
+
+    .form-input-item-top {
+        width: 50%;
+    }
+
+    .form-input-item-bottom {
+        width: 25%;
+    }
+
+    .form-input-item {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 15px;
+
+        label {
+            margin-bottom: 10px;
+            font-weight: 700;
+            font-size: 13px;
+        }
+
+        select {
+            color: #888888;
+            font-weight: 500;
+            box-shadow: none;
+            border: 2px solid #d8d8d8;
+            border-radius: 4px;
+            font-size: 13px;
+            height: 50px;
+            padding: 8px 20px;
+        }
+
+    }
+
+    .form-input-item:first-child {
+        margin-left: 0px;
+    }
+
+    .form-input-item:last-child {
+        margin-right: 0px;
     }
 }
 
@@ -150,14 +200,35 @@ input.search-bar {
     font-weight: 500;
     letter-spacing: 0;
     line-height: 30px;
+    margin-bottom: 31px;
 }
 
-.results-c\ounter {
+.results-counter {
     height: 25px;
+    margin-bottom: 15px;
     color: #808080;
     font-weight: 500;
     letter-spacing: 0;
     line-height: 25px;
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.load-more-button {
+    display: flex;
+    margin: 45px auto;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    min-height: 50px;
+    line-height: 20px;
+    padding: 13px 30px;
+    background: #008CC8;
+    border: 2px solid #008CC8;
+    border-radius: 4px;
+    color: #fff;
 }
 
 .show-advanced-filters {
