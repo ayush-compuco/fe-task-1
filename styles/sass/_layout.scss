@@ -1,0 +1,23 @@
+.row-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .row-title {
+        h1 {
+            padding: 0;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.25;
+        }
+    }
+
+    .search-wrapper {
+        padding: 25px 75px;
+    }
+}
+
+.horizontal-line {
+    border-bottom: 2px solid $line-gray;
+}

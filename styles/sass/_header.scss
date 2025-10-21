@@ -1,0 +1,117 @@
+.top-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: $primary-blue;
+}
+
+.top-header-wrapper {
+    height: 30px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+
+    a {
+        padding: 0 12px;
+        color: #eee;
+        line-height: 14px;
+        font-size: 13px;
+        font-weight: 500;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        opacity: 0.8;
+        -webkit-transition: all .2s ease-in;
+        transition: all .2s ease-in;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $white;
+    }
+
+    a:first-of-type {
+        border-left: 0px;
+        background: url(../../assets/icons/secondary-logo.svg) -1px 1px no-repeat;
+    }
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 10px grey;
+}
+
+.navbar-wrapper {
+    height: 80px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 20%;
+}
+
+.nav-elements {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-elements-small {
+    display: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: right;
+}
+
+.search-bar {
+    height: 42px;
+    width: 500px;
+    border: 2px solid #F0F0F0;
+    color: #555;
+    padding: 0;
+}
+
+input.search-bar {
+    box-sizing: border-box;
+    border: 2px solid #F0F0F0;
+    border-radius: 4px;
+    padding-left: 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.navbar-button {
+    background: $white;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: none;
+    cursor: pointer;
+    min-height: 40px;
+    line-height: 16px;
+    padding: 10px 20px;
+    border: 2px solid $border-gray;
+    color: $dark-blue;
+    background-color: $white;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+.navbar-login {
+    background: $primary-blue;
+    border: 2px solid $primary-blue;
+    color: $white;
+    position: relative;
+    padding-left: 45px;
+    background-image: url(../../assets/icons/icon-signin.svg);
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    white-space: nowrap;
+}
